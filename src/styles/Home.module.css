@@ -1,0 +1,77 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.mainMenu {
+  width: 100%;
+  max-width: 800px;
+}
+
+.menuGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.menuItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.menuItem:hover {
+  transform: scale(1.05);
+}
+
+.menuIcon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.menuLabel {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.offlineStatus {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.offlineIndicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.offlineIndicator.offline {
+  background-color: red;
+} 
