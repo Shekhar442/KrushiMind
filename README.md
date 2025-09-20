@@ -106,3 +106,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Next.js team for the amazing framework
 - All contributors and supporters of the project
 - New Author Anant Binjola
+- Anant Binjola
